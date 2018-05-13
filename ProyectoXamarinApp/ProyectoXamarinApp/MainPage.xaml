@@ -4,8 +4,6 @@
              xmlns:local="clr-namespace:ProyectoXamarinApp"
              x:Class="ProyectoXamarinApp.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+   
 
 </ContentPage>

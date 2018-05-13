@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoXamarinApp.Inicio">
+    <ContentPage.Content>
+        <Grid BackgroundColor="White"   >
+            <Image Source=""></Image>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <StackLayout>
+                <Image Source="img1.png"></Image>
+                <Entry x:Name="Entusuario" Placeholder="Ingrese usuario" PlaceholderColor="Gray" FontFamily="sans-serif" ></Entry>
+                <Entry x:Name="EntNombre" Placeholder="Ingrese su contraseña" IsPassword="True" BackgroundColor="White" PlaceholderColor="Gray" FontSize="16" FontFamily="ArialNarrow"></Entry>
+                <Button Grid.Column= "1" x:Name="BtnIniciarSesion" Text="Iniciar Sesion" BackgroundColor="Red"></Button>
+            </StackLayout>
+            
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
